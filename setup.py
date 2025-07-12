@@ -4,7 +4,7 @@ setup(
     name='certbot-dnspod',
     version='0.0.1',
     author='Looomo',
-    author_email='carsonzhu@tencent.com',
+    author_email='shanyixiang@gmail.com',
     description='Dnspod DNS Authenticator plugin for Certbot',
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
@@ -33,7 +33,7 @@ setup(
     ],
     entry_points={
         'certbot.plugins': [
-            'dns-tencentcloud = certbot_dns_tencentcloud.certbot_tencentcloud_plugins:Authenticator',
+            'certbot-dnspod = certbot_dnspod.certbot_dnspod_plugins:Authenticator',
         ],
     },
 )

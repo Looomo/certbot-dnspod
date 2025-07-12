@@ -1,0 +1,4 @@
+test/main.py
+test
+__pycache__
+certbot_dnspod.egg-info
