@@ -11,8 +11,8 @@ pip install git+https://github.com/Looomo/certbot-dnspod.git
 ##### If you want to use config file:
 ```
 # cat /etc/letsencrypt/tencentcloud.ini
-dns_tencentcloud_secret_id = "your_tencent_id"
-dns_tencentcloud_secret_key = "your_tencent_key"
+certbot_dnspod_secret_id = "your_tencent_id"
+certbot_dnspod_secret_key = "your_tencent_key"
 # obtain  with certbot
 certbot certonly \
     -a certbot-dnspod \ # use  certbot-dnspod plugin
